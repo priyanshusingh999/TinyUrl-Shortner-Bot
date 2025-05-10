@@ -2,6 +2,7 @@ import requests
 import time, os
 import pyshorteners
 from app import *
+from streamlit_app import *
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 def get_updates(offset=None):
