@@ -4,7 +4,8 @@ import pyshorteners
 from app import *
 from streamlit_app import *
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = "7234737115:AAHtK02uy5rFJxICyffdqc2ZRtF13aQEuCA"
+#BOT_TOKEN = os.getenv('BOT_TOKEN')
 def get_updates(offset=None):
     url = f'https://api.telegram.org/bot{BOT_TOKEN}/getUpdates'
     params = {'offset': offset}
